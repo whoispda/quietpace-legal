@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Quiet Pace privacy policy — the app collects nothing; your data stays on your device and in Apple Health.">
+  <meta name="description" content="Quiet Pace privacy policy — your data stays on your devices, in Apple Health, and optionally in your private iCloud. We never see it.">
   <title>Quiet Pace — Privacy Policy</title>
   <style>
     :root {
@@ -72,15 +72,13 @@
     <div class="wrap">
       <span class="eyebrow">Private by design</span>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 14 July 2026</p>
+      <p class="updated">Last updated: 25 August 2026</p>
 
       <div class="callout">
-        <p><b>The short version:</b> Quiet Pace has no servers, and no account is required. Your
-        runs, health data, and everything you do in the app stay on your iPhone and in your own
-        Apple Health. We &mdash; the developer &mdash; never receive them, and there are no ads,
-        analytics, or trackers. We can&rsquo;t see your data, so we can&rsquo;t sell or share it.
-        You may optionally Sign in with Apple to save an account &mdash; that identity is stored
-        only on your device; see below.</p>
+        <p><b>The short version:</b> Quiet Pace has no servers of its own, and no account is required. Your
+        runs and health insights stay on your iPhone, in Apple Health, and &mdash; if you leave sync on &mdash;
+        in <b>your</b> private iCloud. Optional coach sharing is opt-in. We &mdash; the developer &mdash; never
+        receive your data, and there are no ads, analytics, trackers, or Quiet Pace accounts.</p>
       </div>
 
       <h2>Who this applies to</h2>
@@ -104,36 +102,38 @@
       </ul>
 
       <h2>What we collect</h2>
-      <p><b>Nothing.</b> Quiet Pace has no backend server and makes no network requests that send your
-      personal data anywhere. The developer has no ability to see your runs, health data, location,
+      <p><b>Nothing on our servers.</b> Quiet Pace has no backend of its own and does not send your
+      personal data to the developer. The developer has no ability to see your runs, health data, location,
       or how you use the app. You don&rsquo;t need an account to use Quiet Pace.</p>
 
-      <h2>Signing in with Apple (optional)</h2>
-      <p>You may choose to Sign in with Apple to save an account in the app. If you do:</p>
-      <ul>
-        <li>Quiet Pace receives the private, Apple-provided identifier for your account and, if you
-          allow it, your name. Both are stored <b>only on this device</b>, in the Keychain &mdash;
-          they are <b>never sent to a server</b> (there isn&rsquo;t one) and never shared.</li>
-        <li>You can hide your name; Sign in with Apple does not require it, and Quiet Pace does not
-          request your email.</li>
-        <li>Signing in is entirely optional. Nothing in the app is gated by it &mdash; every feature
-          that works signed out works signed in.</li>
-        <li>Sign out anytime in Settings, which deletes the saved identity from your device. You can
-          also revoke access under Apple Account &rarr; Sign in with Apple in your device&rsquo;s Settings.</li>
-      </ul>
+      <h2>iCloud sync (on by default, optional)</h2>
+      <p>Quiet Pace can mirror your runs, saved routes, and training notes across your devices using
+      Apple&rsquo;s CloudKit in <b>your private iCloud database</b>. Sync is on by default so a new phone
+      keeps your log; you can turn it off anytime in Settings. Data in private iCloud is under your Apple
+      Account &mdash; we cannot read it. Turning sync off stops new uploads; existing copies in iCloud remain
+      until you delete them via Apple&rsquo;s iCloud settings or by deleting the app&rsquo;s iCloud data.</p>
+
+      <h2>Sharing with a coach (optional)</h2>
+      <p>If you choose to share a program review with a coach, Quiet Pace uses CloudKit sharing
+      (<code>CKShare</code>) to invite another person via a link they accept in their own iCloud.
+      Sharing is never automatic. Only what you explicitly share is visible to the invitee; you can stop
+      sharing from the app. We do not operate a coach network or intermediary server.</p>
 
       <h2>How your data is used</h2>
-      <p>Your data is used entirely on your device, by the app, to compute your training intelligence
-      &mdash; readiness, training load, records, aerobic durability, and the rest. The calculations run
-      on your iPhone. Nothing leaves it.</p>
+      <p>Your data is used on your device (and, when sync is on, kept in your private iCloud) to compute
+      your training intelligence &mdash; readiness, training load, records, aerobic durability, and the rest.
+      The calculations run on your iPhone. Nothing is sent to the developer.</p>
 
       <h2>Third parties</h2>
       <p>Quiet Pace does not include any third-party analytics or advertising SDKs, and does not embed
       third-party trackers. It relies only on Apple&rsquo;s own frameworks:</p>
       <ul>
         <li><b>Apple HealthKit</b> &mdash; your health data remains in Apple Health, under your control.</li>
+        <li><b>Apple CloudKit / iCloud</b> &mdash; optional sync and optional coach shares, in your Apple Account.</li>
         <li><b>Apple StoreKit</b> &mdash; processes membership purchases. Apple handles payment; we
           receive no payment or personal information from it.</li>
+        <li><b>Apple Music / MusicKit</b> &mdash; with your permission, authorizes and plays music
+          through your Apple Music account. We do not receive your library or listening history.</li>
         <li><b>Apple WeatherKit</b> &mdash; provides local weather conditions.</li>
       </ul>
       <p>Apple&rsquo;s handling of any information is governed by
@@ -145,10 +145,10 @@
       device&rsquo;s Settings under your Apple Account.</p>
 
       <h2>Keeping and deleting your data</h2>
-      <p>Because your data lives on your device and in Apple Health, you control it entirely. Delete an
-      individual run inside the app, or delete the app, and that data is removed from Quiet Pace. Health
-      data is managed in the Apple Health app. There is nothing on our side to request, export, or delete,
-      because we never held it.</p>
+      <p>You control data on your device and in Apple Health. Delete an individual run inside the app, or
+      delete the app, and that data is removed from Quiet Pace on the device. Health data is managed in the
+      Apple Health app. If you used iCloud sync or coach share, manage or delete those copies through
+      Apple&rsquo;s iCloud settings. There is nothing on our servers to request, because we never held it.</p>
 
       <h2>Children</h2>
       <p>Quiet Pace is not directed to children under 13, and &mdash; as above &mdash; collects no
