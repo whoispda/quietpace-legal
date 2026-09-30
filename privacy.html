@@ -72,11 +72,11 @@
     <div class="wrap">
       <span class="eyebrow">Private by design</span>
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: 15 September 2026</p>
+      <p class="updated">Last updated: 29 September 2026</p>
 
       <div class="callout">
         <p><b>The short version:</b> Quiet Pace has no servers of its own, and no account is required. Your
-        runs and health insights stay on your iPhone, in Apple Health, and &mdash; if you leave sync on &mdash;
+        runs and health insights stay on your iPhone, in Apple Health, and &mdash; if you turn sync on &mdash;
         in <b>your</b> private iCloud. Optional coach sharing is opt-in. We &mdash; the developer &mdash; never
         receive your data, and there are no ads, analytics, trackers, or Quiet Pace accounts.</p>
       </div>
@@ -87,21 +87,20 @@
 
       <h2>What Quiet Pace accesses on your device</h2>
       <p>Quiet Pace asks permission for a few things, and uses each only to make the app work.
-      Everything below happens on your device &mdash; none of it is transmitted to us.</p>
+      Processing uses your device and the Apple services described below;
+      none of this data is transmitted to the developer.</p>
       <ul>
-        <li><b>Location.</b> Used to record your route, distance, and pace while a run is active.
-          Route data is stored on your device and is never sent to us. If you are a member, a coarse
-          (kilometre-level) location is also sent to Apple&rsquo;s WeatherKit to fetch local
-          conditions, as described under Weather below.</li>
+        <li><b>Location.</b> Used to record your route, distance, and pace while a run is active,
+          and to find nearby routes when you open the route finder. Route discovery and directions
+          send search areas and route endpoints to Apple Maps for processing. Recorded routes are
+          stored on your device. Optional private iCloud sync and sharing are controlled by you;
+          runs saved to Apple Health follow your Health settings.
+          Location and route data are never sent to us.</li>
         <li><b>Apple Health (HealthKit).</b> With your permission, Quiet Pace reads workout,
           heart-rate, heart-rate-variability, resting-heart-rate, sleep, and running-form data to
           build your insights, and writes your recorded runs back to Apple Health. This read and
           write happens on your device; your Health data stays under your control in the Health app.</li>
         <li><b>Motion &amp; fitness.</b> Used to measure your cadence during a run.</li>
-        <li><b>Weather.</b> For members, Quiet Pace uses Apple&rsquo;s WeatherKit to show local conditions
-          (for the &ldquo;should I run now?&rdquo; read). To do that, it sends a coarse, kilometre-level
-          location to Apple when you open the Today screen, at most once every 30 minutes, and only if
-          you have already allowed location access. Apple provides the weather; it does not identify you to us.</li>
       </ul>
 
       <h2>What we collect</h2>
@@ -109,10 +108,13 @@
       personal data to the developer. The developer has no ability to see your runs, health data, location,
       or how you use the app. You don&rsquo;t need an account to use Quiet Pace.</p>
 
-      <h2>iCloud sync (on by default, optional)</h2>
+      <h2>iCloud sync (opt-in)</h2>
       <p>Quiet Pace can mirror your runs, saved routes, and training notes across your devices using
-      Apple&rsquo;s CloudKit in <b>your private iCloud database</b>. Sync is on by default so a new phone
-      keeps your log; you can turn it off anytime in Settings. Data in private iCloud is under your Apple
+      Apple&rsquo;s CloudKit in <b>your private iCloud database</b>. Sync is
+      off by default for a new installation; you can turn it on in Settings. An
+      existing sync preference is preserved when you update the app. You can turn
+      sync off anytime in Settings. A new or changed iCloud account requires your
+      explicit approval before local history can be uploaded. Data in private iCloud is under your Apple
       Account &mdash; we cannot read it. Turning sync off stops new uploads; existing copies in iCloud remain
       until you delete them via Apple&rsquo;s iCloud settings or by deleting the app&rsquo;s iCloud data.</p>
 
@@ -137,7 +139,8 @@
           receive no payment or personal information from it.</li>
         <li><b>Apple Music / MusicKit</b> &mdash; with your permission, authorizes and plays music
           through your Apple Music account. We do not receive your library or listening history.</li>
-        <li><b>Apple WeatherKit</b> &mdash; provides local weather conditions.</li>
+        <li><b>Apple Maps / MapKit</b> &mdash; processes map searches and directions for route
+          discovery and planning. We do not receive those requests.</li>
       </ul>
       <p>Apple&rsquo;s handling of any information is governed by
       <a href="https://www.apple.com/legal/privacy/">Apple&rsquo;s Privacy Policy</a>.</p>
